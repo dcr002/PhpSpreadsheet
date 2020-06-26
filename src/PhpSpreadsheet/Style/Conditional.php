@@ -13,6 +13,7 @@ class Conditional implements IComparable
     const CONDITION_EXPRESSION = 'expression';
     const CONDITION_CONTAINSBLANKS = 'containsBlanks';
     const CONDITION_NOTCONTAINSBLANKS = 'notContainsBlanks';
+    const CONDITION_NOTCONTAINSTEXT = 'notContainsText';
 
     // Operator types
     const OPERATOR_NONE = '';
